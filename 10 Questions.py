@@ -4,7 +4,7 @@ user_input = input("Let's play a Game. Are you Ready? ")
 ## conditions: if he says yes
 if user_input.lower() == "yes":
     print("Ok. Let's Play!")
-    print("I will ask you 10 random questions. You have to answer  the last four questions in only Yes or No.")
+    print("I will ask you 10 random questions. You have to answer  the last six questions in only Yes or No.")
     print("WARNING! Orphans please play at your own risk because this game might hurt you.")
 
     ## questions from one to four: basic informations about the user
