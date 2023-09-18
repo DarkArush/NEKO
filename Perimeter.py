@@ -8,7 +8,7 @@ if x == "1":
     l = int(input("Enter Length: "))
     b = int(input("Enter Breadth: "))
     per_rec = 2*(l+b)
-    print("The Area is:", per_rec, "cm.")
+    print("The Perimeter is:", per_rec, "cm.")
     u = input("""Do you want your answer to be in metres? 
                  Type 1. For Yes
                  Type 2. For No
@@ -24,7 +24,7 @@ if x == "1":
 elif x == "2":
     s = int(input("Enter Length of the Side: "))
     per_sq = 4*s
-    print("The Area is:", per_sq, "cm.")
+    print("The Perimeter is:", per_sq, "cm.")
     u = input("""Do you want your answer to be in metres? 
                  Type 1. For Yes
                  Type 2. For No
@@ -46,7 +46,7 @@ elif x == "3":
         s = int(input("""In a Equilateral Triangle, all the Three sides are equal.
                          Therefore, Enter the Length of the Side: """))
         per_triangle = s+s+s
-        print("The perimeter is", per_triangle, "cm.")
+        print("The Perimeter is", per_triangle, "cm.")
         u = input("""Do you want your answer to be in metres? 
                          Type 1. For Yes
                          Type 2. For No
@@ -63,7 +63,7 @@ elif x == "3":
                          Therefore, Enter the Length of the equal Side and: """))
         s_two = int(input("Enter the Length of the unequal Side: "))
         per_triangle = s_one + s_one + s_two
-        print("The perimeter is", per_triangle, "cm.")
+        print("The Perimeter is", per_triangle, "cm.")
         u = input("""Do you want your answer to be in metres? 
                      Type 1. For Yes
                      Type 2. For No
@@ -81,7 +81,7 @@ elif x == "3":
         s_two = int(input("Enter the Length of the second Side: "))
         s_three = int(input("Enter the Length of the third Side: "))
         per_triangle = s_one + s_two + s_three
-        print("The perimeter is", per_triangle, "cm.")
+        print("The Perimeter is", per_triangle, "cm.")
         u = input("""Do you want your answer to be in metres? 
                      Type 1. For Yes
                      Type 2. For No
@@ -98,7 +98,7 @@ elif x == "4":
     r = int(input("Enter Radius: "))
     pie = 22/7
     per_circle = 2*pie*r
-    print("The Area is:", per_circle, "cm.")
+    print("The Perimeter is:", per_circle, "cm.")
     u = input("""Do you want your answer to be in metres? 
                  Type 1. For Yes
                  Type 2. For No
