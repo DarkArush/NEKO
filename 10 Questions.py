@@ -13,8 +13,6 @@ if user_input.lower() == "yes":
     que_three = input("What is your Gender? ")
     que_four = input("And where are you from? ")
 
-    three = que_three
-
     ## details given by the user about himself/herself in the first four questions
     print("So, as per you information, Here are your Details: ")
     print("Name:", que_one, "Age:", que_two, "Gender:", que_three, "Address:", que_four)
