@@ -45,7 +45,6 @@ if c.lower() == "yes" or c == "Yes":
     else:
         print("Your Choice Should be in Numbers. Please try again.")
 
-
 elif c.lower() == "no" or c == "No":
     print("Ok! The List is:", x, y, z)
 
